@@ -5,6 +5,7 @@ Universal Claude Code configuration system with Windows compatibility, git routi
 ## Features
 
 - **Universal Compatibility**: Works on Windows, WSL, macOS, and Linux
+- **Parallel Multi-Agent Workflows**: Optimized for concurrent agent execution following Anthropic best practices
 - **Git Routing System**: Automatic separation of Claude config files from project code
 - **Spec-Driven Development**: Complete workflow for feature specifications and tracking
 - **WordPress Integration**: Specialized agents for Genesis themes and WordPress development
@@ -121,10 +122,50 @@ Automatically separates Claude configuration files from project code:
 - **test-automation-engineer**: Playwright testing for WordPress
 
 ### General Development
-- **meta-agent**: Creates new specialized agents
+- **meta-agent**: Creates new specialized agents with parallel execution design
 - **codebase-analyzer**: Deep code structure analysis
 - **project-initializer**: Sets up new project configurations
 - **tech-researcher**: Researches technologies and creates documentation
+- **workflow-coordinator**: Orchestrates parallel multi-agent workflows
+
+## Parallel Multi-Agent Workflows
+
+This configuration is optimized for concurrent agent execution following Anthropic's best practices:
+
+### Concurrent Analysis Pattern
+```
+Launch multiple agents simultaneously for comprehensive analysis:
+- codebase-analyzer: Code structure and patterns
+- tech-researcher: Current best practices  
+- performance-optimizer: Performance metrics
+- security-auditor: Security considerations
+```
+
+### Parallel Development Workflow
+```
+1. Concurrent Planning:
+   - requirements-analyst + technical-architect + risk-assessor
+   
+2. Parallel Implementation:
+   - frontend-developer + backend-developer + test-engineer
+   
+3. Concurrent Validation:
+   - code-reviewer + performance-tester + security-auditor
+```
+
+### Batch Processing Pattern
+```
+Group related operations in single requests:
+- Multiple file reads across different directories
+- Parallel searches for different patterns
+- Concurrent data processing tasks
+```
+
+### Optimization Benefits
+- **Maximum Efficiency**: Multiple agents work simultaneously
+- **Reduced Context Usage**: Batched operations minimize API calls
+- **Clear Boundaries**: Each agent has distinct, non-overlapping responsibilities
+- **Clean Data Handoffs**: Structured interfaces between agent outputs
 
 ## Environment Support
 
