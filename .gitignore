@@ -8,6 +8,13 @@ shell-snapshots/
 *.local.json
 send-sms.sh
 
+# Claude Code application files
+downloads/
+ide/
+statsig/
+.credentials.json
+WINDOWS_CLAUDE_SETUP.md
+
 # Logs and temporary files
 logs/
 *.log
