@@ -32,11 +32,11 @@
 - Optimization approaches
 
 ## Local Development Setup
-- **Local URL**: https://leessupperclub.local
+- **Local URL**: https://{PROJECT_NAME}.local
 - **SSL Certificate**: Trusted for testing
 - **Database**: Local by Flywheel MySQL
 - **PHP**: Local by Flywheel environment
 
 **Windows File Structure**:
-- Theme files: C:\Users\Jorge\Local Sites\lees-supper-club\app\public\wp-content\themes\
-- Assets: C:\Users\Jorge\Local Sites\lees-supper-club\app\public\wp-content\themes\lsc-genesis-clean\assets\
+- Theme files: {PROJECT_PATH}\app\public\wp-content\themes\
+- Assets: {PROJECT_PATH}\app\public\wp-content\themes\{THEME_NAME}\assets\

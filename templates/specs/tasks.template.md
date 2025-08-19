@@ -31,7 +31,7 @@
 ## Total Estimate: [X hours]
 
 **Local Development Commands**:
-- **Test**: `cd "C:\Users\Jorge\Local Sites\lees-supper-club" && npm test`
-- **Build**: `cd "C:\Users\Jorge\Local Sites\lees-supper-club" && npm run build`
-- **Playwright Test**: `cd "C:\Users\Jorge\Local Sites\lees-supper-club" && npx playwright test --headed`
-- **Access Site**: Open https://leessupperclub.local in browser
+- **Test**: `cd "{PROJECT_PATH}" && npm test`
+- **Build**: `cd "{PROJECT_PATH}" && npm run build`
+- **Playwright Test**: `cd "{PROJECT_PATH}" && npx playwright test --headed`
+- **Access Site**: Open https://{PROJECT_NAME}.local in browser

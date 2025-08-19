@@ -6,5 +6,5 @@ Usage: /spec-work [feature-name]
 - Provides development context and decisions
 - Highlights next actions
 
-**Windows Usage**: Reads specs from `C:\Users\Jorge\Local Sites\lees-supper-club\.claude\specs\`
-**Local Development**: References leessupperclub.local URLs
+**Windows Usage**: Reads specs from current project's `.claude\specs\` directory
+**Local Development**: References current project's local URLs

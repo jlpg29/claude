@@ -6,5 +6,5 @@ Load project context and prepare Claude for work
 - Loads project-specific agents
 - Summarizes project state and available tools
 
-**Windows Usage**: Reads from `C:\Users\Jorge\Local Sites\lees-supper-club\.claude\`
-**Local Development**: Works with leessupperclub.local domain
+**Windows Usage**: Reads from current project's `.claude\` directory
+**Local Development**: Works with current project domain

@@ -29,6 +29,6 @@ As a [user type], I want [goal] so that [benefit].
 - Metric 2: [measurement]
 
 **Local Development Environment**:
-- **Local URL**: https://leessupperclub.local
-- **Windows Project Path**: C:\Users\Jorge\Local Sites\lees-supper-club\
+- **Local URL**: https://{PROJECT_NAME}.local
+- **Windows Project Path**: {PROJECT_PATH}\
 - **SSL**: Trusted certificate for Playwright testing

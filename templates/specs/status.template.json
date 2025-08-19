@@ -14,10 +14,10 @@
   "actual_completion": null,
   "notes": [],
   "local_development": {
-    "windows_project_path": "C:\\Users\\Jorge\\Local Sites\\lees-supper-club",
-    "windows_theme_path": "C:\\Users\\Jorge\\Local Sites\\lees-supper-club\\app\\public\\wp-content\\themes\\lsc-genesis-clean",
-    "local_url": "https://leessupperclub.local",
-    "admin_url": "https://leessupperclub.local/wp-admin",
+    "windows_project_path": "{PROJECT_PATH}",
+    "windows_theme_path": "{PROJECT_PATH}\\app\\public\\wp-content\\themes\\{THEME_NAME}",
+    "local_url": "https://{PROJECT_NAME}.local",
+    "admin_url": "https://{PROJECT_NAME}.local/wp-admin",
     "ssl_trusted": true,
     "flywheel_site": true
   }

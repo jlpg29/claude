@@ -233,7 +233,8 @@ def main():
             return
         
         # Check if we're in the correct project
-        if "lees-supper-club" not in str(Path.cwd()):
+        # Check if we're in a valid project directory with .claude folder
+        if not (Path.cwd() / ".claude").exists():
             return
         
         # Run routing logic
