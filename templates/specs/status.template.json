@@ -1,0 +1,24 @@
+{
+  "feature_name": "{FEATURE_NAME}",
+  "status": "planning",
+  "phase": "requirements",
+  "progress": {
+    "requirements": 0,
+    "design": 0,
+    "implementation": 0,
+    "testing": 0
+  },
+  "blockers": [],
+  "next_actions": [],
+  "estimated_completion": null,
+  "actual_completion": null,
+  "notes": [],
+  "local_development": {
+    "windows_project_path": "C:\\Users\\Jorge\\Local Sites\\lees-supper-club",
+    "windows_theme_path": "C:\\Users\\Jorge\\Local Sites\\lees-supper-club\\app\\public\\wp-content\\themes\\lsc-genesis-clean",
+    "local_url": "https://leessupperclub.local",
+    "admin_url": "https://leessupperclub.local/wp-admin",
+    "ssl_trusted": true,
+    "flywheel_site": true
+  }
+}

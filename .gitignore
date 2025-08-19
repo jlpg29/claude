@@ -1,0 +1,43 @@
+# Claude Code Git Ignore
+
+# Personal data and session files
+projects/
+todos/
+shell-snapshots/
+*.backup
+*.local.json
+send-sms.sh
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Personal tokens and credentials
+tokens*.json
+api-keys.json
+credentials/
+
+# Local project-specific overrides
+local-settings.json
+user-overrides/
