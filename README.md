@@ -122,11 +122,11 @@ Automatically separates Claude configuration files from project code:
 - **test-automation-engineer**: Playwright testing for WordPress
 
 ### General Development
-- **meta-agent**: Creates new specialized agents with parallel execution design
-- **codebase-analyzer**: Deep code structure analysis
-- **project-initializer**: Sets up new project configurations
-- **tech-researcher**: Researches technologies and creates documentation
-- **workflow-coordinator**: Orchestrates parallel multi-agent workflows
+- **meta-agent**: Creates new specialized agents with parallel execution design (Sonnet)
+- **codebase-analyzer**: Fast code structure analysis and pattern detection (Haiku)
+- **project-initializer**: Sets up new project configurations (Sonnet)
+- **tech-researcher**: Rapid technology research and documentation (Haiku)
+- **workflow-coordinator**: Orchestrates parallel multi-agent workflows (Sonnet)
 
 ## Parallel Multi-Agent Workflows
 
@@ -166,6 +166,27 @@ Group related operations in single requests:
 - **Reduced Context Usage**: Batched operations minimize API calls
 - **Clear Boundaries**: Each agent has distinct, non-overlapping responsibilities
 - **Clean Data Handoffs**: Structured interfaces between agent outputs
+- **Model Optimization**: Right model for each task (Sonnet for complex reasoning, Haiku for speed)
+
+## Model Selection Strategy
+
+This configuration optimizes cost and performance by using the most appropriate model for each agent:
+
+### Claude 3.5 Sonnet (Complex Tasks)
+- **meta-agent**: Complex agent design and workflow orchestration
+- **project-initializer**: Comprehensive project setup requiring detailed planning
+- **workflow-coordinator**: Multi-step workflow coordination and optimization
+
+### Claude 3 Haiku (Speed & Efficiency)
+- **codebase-analyzer**: Rapid file analysis and pattern detection
+- **tech-researcher**: Fast research and information gathering
+- **Simple operations**: Quick analysis, data extraction, and focused tasks
+
+### Benefits
+- **Cost Optimization**: Use expensive models only when necessary
+- **Speed Optimization**: Fast models for operations requiring quick turnaround
+- **Quality Optimization**: Complex models for tasks requiring detailed reasoning
+- **Context Efficiency**: Right model size for the complexity of each task
 
 ## Environment Support
 
